@@ -26,7 +26,7 @@ publishing {
     publications {
         maven(MavenPublication) {
             groupId 'com.lul'
-            artifactId 'test-ci-cd'
+            artifactId 'calc-test-ci-cd'
             version '1.0'
             from components.java
         }
