@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'com.lul'
-version '1.0'
+version '2.0'
 
 repositories {
 
@@ -25,6 +25,9 @@ publishing {
 
     publications {
         maven(MavenPublication) {
+            groupId 'com.lul'
+            artifactId 'calc-test-ci-cd'
+            version '1.0'
             from components.java
         }
     }
