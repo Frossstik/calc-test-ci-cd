@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'com.lul'
-version '2.0'
+version '1.0'
 
 repositories {
 
@@ -15,7 +15,7 @@ publishing {
     repositories {
         maven {
             name = "GitHubPackages"
-            url = "https://maven.pkg.github.com/MrGreenNV/calculator-test-ci-cd"
+            url = "https://maven.pkg.github.com/Frossstik/calc-test-ci-cd"
             credentials {
                 username = System.getenv("GITHUB_ACTOR")
                 password = System.getenv("GITHUB_TOKEN")
